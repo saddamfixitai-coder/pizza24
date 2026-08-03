@@ -1,4 +1,28 @@
-<!doctype html><html><head><meta charset='utf-8'><title>Pizza Store</title>
-<link rel='stylesheet' href='assets/css/style.css'></head>
-<body><header><h1>Pizza Store Pakistan</h1><nav><a href='index.html'>Home</a></nav></header>
-<main><div id='products'></div></main><script src='assets/js/products.js'></script><script src='assets/js/app.js'></script></body></html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pizza Store</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Pizza Store Pakistan</h1>
+    <nav><a href="index.html">Home</a></nav>
+  </header>
+
+  <main>
+    <div id="products" class="products-grid"></div>
+    <aside id="cart" class="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total"></div>
+      <button id="clear-cart">Clear cart</button>
+    </aside>
+  </main>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
