@@ -1,0 +1,1 @@
+document.getElementById('products').innerHTML=products.map(p=>`<div class='card'><h3>${p.name}</h3><p>Rs ${p.price}</p><button>Add to Cart</button></div>`).join('');

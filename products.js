@@ -1,0 +1,1 @@
+const products=[{name:'Chicken Tikka',price:1999},{name:'Fajita',price:2199}];
